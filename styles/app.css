@@ -1,0 +1,44 @@
+:root{
+    --font-var-for-h: 'Nuosu SIL', serif;
+    --font-additiona: 'Lato', sans-serif;
+    --bg-color:  rgb(254, 245, 233);
+    --brown-color:  rgba(213, 185, 144, 0.896);
+}
+
+body{
+    font-family: var(--font-additiona);
+}
+
+.header
+{
+    background-color: var(--bg-color);
+}
+
+.name{
+    font-family: var(--font-var-for-h);
+    font-size: 60px;
+}
+
+
+.p, .p2{
+    font-size: 30px; 
+}
+
+.p2{
+    color: rgb(82, 82, 82);
+}
+
+.myButton{
+    color: black;
+    border-radius: 30px;
+    background-color: var(--brown-color);
+    border: none;
+    color: white;
+}
+
+.myButton:hover{
+    background-color: var(--bg-color);
+    color: var(--brown-color);
+    border: 1px solid var(--brown-color);
+}
+

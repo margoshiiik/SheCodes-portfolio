@@ -66,3 +66,24 @@ h3{
     border: none;
     color: white;
 }
+
+.about-content{
+    text-align: center;
+}
+
+.container{
+    font-family: var(--font-var-for-h);
+    padding: 160px 20px;
+}
+
+
+.mypic{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 30px;
+}
+
+p{
+    font-size: 17px;
+}

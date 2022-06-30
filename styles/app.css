@@ -3,6 +3,7 @@
     --font-additiona: 'Lato', sans-serif;
     --bg-color:  rgb(254, 245, 233);
     --brown-color:  rgba(213, 185, 144, 0.896);
+    --dark-color:  rgba(126, 109, 83, 0.896);
 }
 
 body{
@@ -33,6 +34,7 @@ body{
     background-color: var(--brown-color);
     border: none;
     color: white;
+    font-size: 20px;
 }
 
 .myButton:hover{
@@ -43,6 +45,8 @@ body{
 
 h3{
     background-color: var(--bg-color);
+    border-radius: 30px;
+    padding: 5px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -57,6 +61,8 @@ h3{
     color: var(--brown-color);
     border: 1px solid var(--brown-color);
     border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
 }
 
 
@@ -104,4 +110,38 @@ p{
     font-size: 25px;
     background-color: var(--bg-color);
     font-family: var(--font-var-for-h);
+}
+
+.email{
+    text-decoration: none;
+    color: var(--brown-color);
+    transition: all 200ms ease-in;
+}
+
+.email:hover{
+    color: var(--dark-color);
+    
+}
+
+.fa-brands{
+    color: var(--brown-color);
+    text-decoration: none;
+  font-size: 30px;
+    margin:20px;
+    transition: all 200ms ease-in;
+}
+
+.fa-brands:hover{
+    color: var(--dark-color);
+}
+
+.divv{
+    font-family: var(--font-var-for-h);
+    background-color: var(--bg-color);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    border-radius: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }

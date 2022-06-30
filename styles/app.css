@@ -71,7 +71,7 @@ h3{
     text-align: center;
 }
 
-.container{
+.forAbout {
     font-family: var(--font-var-for-h);
     padding: 160px 20px;
 }
@@ -86,4 +86,16 @@ h3{
 
 p{
     font-size: 17px;
+}
+
+.work-section{
+    padding-top: 160px;
+    padding-bottom: 30px;
+    font-family: var(--font-var-for-h);
+}
+
+.workPic{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
 }

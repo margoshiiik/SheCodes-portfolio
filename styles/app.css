@@ -99,3 +99,9 @@ p{
     width: 400px;
     height: 400px;
 }
+
+.navbar{
+    font-size: 25px;
+    background-color: var(--bg-color);
+    font-family: var(--font-var-for-h);
+}
